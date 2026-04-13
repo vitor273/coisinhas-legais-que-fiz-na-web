@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro JavaScript</title>
+    <script src="index.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        input {
+            padding: 8px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        #mensagem {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e7f3ff;
+            border-radius: 5px;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+          <h1>Aprendendo JavaScript</h1>
+        
+        <button onclick="mostrarAlerta()">Clique para um Alerta</button>
+        
+
+        <button onclick="mudarTexto()">Mudar Texto</button>
+        <p id="textoParaMudar">Este é o texto original.</p>
+        
+    
+        <div>
+            <input type="text" id="nomeInput" placeholder="Digite seu nome">
+            <button onclick="saudacao()">Enviar</button>
+        </div>
+        
+         <div>
+            <button id="botaoDiminuir">-</button>
+            <span id="contador" style="font-size: 24px; margin: 0 15px;">0</span>
+            <button id="botaoAumentar">+</button>
+        </div>
+
+        <button onclick="mostrarImagem()">Nao clicar</button>  
+        <div id="minhaImagem">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRKIlYLhx-rMAQe_ktoHvFRI9K_D7j3cgJ4Q&s" 
+             alt="Imagem exemplo" 
+             width="300">
+
+        <div id="mensagem"></div>
+    </div>
+     <script>
+        
+    </script>
+</body>
+</html>
